@@ -1,0 +1,19 @@
+.yolo {
+  background-color: black;
+  display: inline-block
+}
+nav ul {
+  text-align: right;
+}
+nav ul li {
+  display: inline;
+  padding-left: 20px;
+}
+nav ul li a {
+  text-decoration: none;
+  font-size: 30px;
+  border-radius: 18px;
+  padding-right: 20px;
+  padding-left: 10px;
+  outline: auto;
+}
