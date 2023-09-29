@@ -1,16 +1,17 @@
+body {
+  background-color: rgb(253 248 241);
+}
 header {
-  background-color: grey;
+  background-color: rgb(143, 10, 10);
   padding: 30px;
 }
 .yolo {
-position: absolute;
-top: 5px;
-left: 10px;
-scale: 0.5;
-width: 40px;
-height: 30px;
-
-
+  position: absolute;
+  top: 5px;
+  left: 1px;
+  scale: 0.5;
+  width: 40px;
+  height: 30px;
 }
 nav ul {
   text-align: right;
@@ -24,8 +25,16 @@ nav ul li a {
   text-decoration: none;
   font-size: 30px;
   border-radius: 18px;
-  padding-right: 20px;
-  padding-left: 15px;
-  outline: auto;
   background-color: rgb(29, 39, 70);
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  letter-spacing: 5px;
+}
+.footerstyle {
+  background-color: rgb(143, 10, 10);
+}
+footer img {
+  position: relative;
+  left: 350px;
 }
